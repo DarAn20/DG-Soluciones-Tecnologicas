@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Beneficios | DG Soluciones Tecnologicas</title>
+</head>
+<body>
+
+    <header>
+        <h1>DG Tech Solutions</h1>
+    <p>Registro de usuarios</p>
+
+   <nav>
+      <a href="Index.html">Inicio</a> |
+      <a href="Servicios.html">Servicios Disponibles</a> |
+      <a href="Beneficios.html">Beneficios</a> |
+      <a href="Registro.html">Registro</a>
+    </nav>
+    <hr>
+    </header>
+    <main>
+        <h2>
+            Formulario de registro, para ser contactado
+        </h2>
+        <p>Completa tus datos para registrarte</p>
+
+
+
+        <form action ="#" method="post">
+            <p>
+                <label>Nombre completo:</label><br>
+                <input type="text" name="nombre" required>
+            </p>
+
+            <p>
+                <label>Identificación:</label><br>
+                <input type="text" name="identificacion" required>
+            </p>
+
+            <p>
+                 
+                <label>Género:</label><br>
+
+                    <div class="genero">
+                        <label><input type="radio" name="genero" value="Masculino" required> Masculino</label>
+                            <label><input type="radio" name="genero" value="Femenino" required> Femenino</label>
+                    </div>
+            </p>
+
+            <p>
+                <label>Teléfono:</label><br>
+                 <input type="tel" name="telefono" required>
+            </p>
+
+            <p>
+                <label>Dirección:</label><br>
+                <textarea name="direccion" rows="3" required></textarea>
+            </p>
+
+            <p>
+                <label>Edad:</label><br>
+                <input type="number" name="edad" min="1" max="120" required>
+            </p>
+
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </p>
+
+        </form>
+
+
+
+    </main>
+
+  <footer>
+    <hr>
+    <p>© 2026 - DG Soluciones Tecnologicas | Sitio informativo</p>
+  </footer>
+    
+</body>
+</html>
